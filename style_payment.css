@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px, 30px;
+    font-size: 17px;
+    padding: 8px;
+}
+.container{
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 5px solid lightgray;
+    border-radius: 4px;
+}
+input [type="text"],
+input [type="radio"],
+input [type="email"],
+input [type="pincode"],
+select
+textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+fieldset{
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+}
+.main_heading{
+    text-align: center;
+}
+input[type="submit"]{
+    background-color: rgb(28, 179, 28);
+    width: 100%;
+    padding: 12px 20px;
+    color: #ccc;
+    border: none;
+    border-radius: 5px;
+    cursor: alias;
+}
+input[type="submit"]:hover{
+    color: whitesmoke;
+    background-color: green;
+}
+.home_page{
+    color: black;
+    cursor: cell;
+    font-family: sans-serif;
+}
+a:hover{
+    color: crimson;
+}

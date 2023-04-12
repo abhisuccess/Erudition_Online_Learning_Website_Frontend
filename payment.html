@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style_payment.css">
+    <title>Payment Gateway</title>
+  </head>
+  <body>
+    <div class="container">
+    <h1 class="main_heading">Payment Gateway</h1>
+    <a class="home_page" href="home.html" target="_blank">Back to Home</a>
+    <hr>
+    <h2>Contact Details</h2>
+    <form action="">
+      <p><b>First Name :</b> <input type="text" name="name" required placeholder="Enter First Name" /></p>
+      <p><b>Last Name :</b> <input type="text" name="secondname" required placeholder="Enter Last Name"/></p>
+      <fieldset>
+        <p>
+          Male <input type="radio" name="gender" required/> Female
+          <input type="radio" name="gender" />
+        </p>
+      </fieldset>
+      <p>Address : <textarea name="adress" id="adress" cols="30" rows="10" placeholder="Enter your Full Address"></textarea></p>
+      <p>Email : <input type="email" name="email" id="email" required placeholder="Enter Your E-mail"></p>
+      <p>Pincode : <input type="pincode" name="pincode" id="pincode" placeholder="Enter Valid Pincode"></p>
+      <hr>
+      <h2>Payment Details</h2>
+      <p> Card Type :
+        <select name="card_type" id="card_type" required>
+            <option value="">-->Select a card type--></option>
+            <option value="visa">VISA</option>
+            <option value="rupay">Rupay</option>
+            <option value="master_card">Master Card</option>
+        </select>
+      </p>
+      <p>Card Number : <input type="number" name="card_number" required placeholder="Enter Card Number"></p>
+      <p>Expiary Date : <input type="date" name="exp_date" required></p>
+      <p>CVV : <input type="password" name="password_" required placeholder="CVV"></p>
+      <input type="submit" value="Pay now">
+    </form>
+  </body>
+</html>
