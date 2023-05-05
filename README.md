@@ -1,2 +1,2 @@
 # Erudition_Online_Learning_Website_Frontend
-<img src="img/depositphotos_6951160-Silver-background.jpg" alt="">
+<img alt="Coding" width="400" src="https://drive.google.com/file/d/1CvmPW5ic6xQvtxvBU5lGJYe3kFfO7_28/view?usp=share_link">
